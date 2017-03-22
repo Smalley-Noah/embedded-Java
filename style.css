@@ -18,12 +18,12 @@ section{
     float: left;
     width: 25%;
     height: inherit;
-    background-color: yellow;
+    background-color: grey;
 }
 
 #diffcolor > div{
     float: left;
     width: 12.5%;
     height: inherit;
-    background-color: green;
+    background-color: grey;
 }
