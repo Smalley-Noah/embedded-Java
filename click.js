@@ -1,14 +1,24 @@
 //samecolor
-function samecolor(hex){
+function samecolor(){
     const doc = document;
-    let color = #196756
+    let color = "#196756"
     let divs = doc.querySelectorAll("#samecolor div")
-    divs[0].style.backgroundcolor = color;
-    divs[0].style.height = "500px"
-    dics[1].style.opacity = 0.75
+    for(let i=0;i<divs.length;i++){
+    divs[i].style.backgroundColor = color;
+    divs[i].style.opacity += i* 0.25
     }
-
+}
 //diffcolor
 function diffcolor(){
-    let color = "#9933s00";
+    const doc = document;
+    let color1 = "ff0000";
+    let color2 = "00ffff";
+    let divs = doc.questySelectorAll("diffcolor dic")
+    for(var i = 0; i < divs.length; i++){
+        if i = %2 == 0{
+            divs[i].style.backgroundColor = color;
+        }
+        else{
+        }
+    }
 }
