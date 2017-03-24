@@ -6,16 +6,17 @@ If you click on the index.html file you will see two sections with many grey div
 
 #### Same Color
 -  This will be enabled by clicking on b1.
--  Create the function samecolor() which takes one input named hex.
--  Find all of the divs in the first section and change their background-color to the #rbg that you want.
--  Also in the function give each div a different opacity (which is the property of transparency). [MDN Opacity](https://developer.mozilla.org/en-US/docs/Web/CSS/opacity) I would suggest evenly spacing the opacities.
+-  Create the function samecolor() which does not use any inputs.
+-  Declare a variable named newcolor and assign it the #rgb that you want.
+-  Find all of the divs in the first section using either a get function or query selector function.
+-  Also in the function give each div a different opacity (which is the property of transparency). [MDN Opacity](https://developer.mozilla.org/en-US/docs/Web/CSS/opacity) I would suggest evenly spacing the opacities for beauty.
 
 #### Different Color
 -  This will be enabled by clicking on b2.
--  Create a function diffcolor() which takes one input named hex.
+-  Create a function diffcolor() also without any inputs.
+-  Declare two color variables: color and complement.  Assign these variables two #rgb colors that you want.
 -  Find all of the divs in the second section.
--  Color the background of half of the divs with hex and the other half with hex's color complement.
--  Make sure the colors alternate. Example yellow, blue, yellow, blue, etc...
+-  Color the background of half of the divs with color and the other complement.  Make sure the colors alternate. Example yellow, blue, yellow, blue, etc...
 
 ## Second Challenge
 Inside of resize.js create two functions: tabletSize() and phoneSize().

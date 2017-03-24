@@ -16,14 +16,14 @@ section{
 
 #samecolor > div{
     float: left;
-    width: 25%;
+    width: 30%;
     height: inherit;
-    background-color: grey;
+    background-color: #888888;
 }
 
 #diffcolor > div{
     float: left;
-    width: 12.5%;
+    width: 15%;
     height: inherit;
-    background-color: grey;
+    background-color: #555555;
 }
